@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcEngine.Core", "ArcEngine.Core\ArcEngine.Core.csproj", "{2D4591E7-D242-4481-858D-6DE2804CFE4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTKTests", "OpenTKTests\OpenTKTests.csproj", "{775B92C1-E965-42AD-84A5-1B3631C15D02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{2D4591E7-D242-4481-858D-6DE2804CFE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D4591E7-D242-4481-858D-6DE2804CFE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D4591E7-D242-4481-858D-6DE2804CFE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775B92C1-E965-42AD-84A5-1B3631C15D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775B92C1-E965-42AD-84A5-1B3631C15D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775B92C1-E965-42AD-84A5-1B3631C15D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775B92C1-E965-42AD-84A5-1B3631C15D02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
