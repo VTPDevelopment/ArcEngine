@@ -8,7 +8,10 @@ namespace OpenTKTests
 	{
 		static void Main(string[] args)
 		{
-			using var win = new ArcWindow(new() { RenderFrequency = 0, UpdateFrequency = 30, IsMultiThreaded = true}, NativeWindowSettings.Default)
+			using var win = new ArcWindow(new() { RenderFrequency = 0, UpdateFrequency = 30, IsMultiThreaded = true}, new()
+			{
+				Size = new(600)
+			})
 			{
 				Title = "ArcEngine OpenTK Test | ",
 				Size = new Vector2i(600)
